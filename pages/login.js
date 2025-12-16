@@ -110,5 +110,5 @@ async function execute() {
     await getUserDetails();
     await getAllProducts(1);
 }
-execute();
+// execute();
 module.exports = { login, getUserDetails, getAllProducts };

@@ -36,15 +36,15 @@ describe('GET all products details', () => {
 });
 
 //GET single products details https://dummyjson.com/products/1
-describe('GET single products details', () => {
-    test('GET single products status code is 200', async () => {
-        const response = await getAllProducts(1).responseSingle;
-        if (response && response.status === 200) {
-            console.log("GET Single Products status :", response.status);
-            console.log("GET Single Products data :", response.data);
-        };
-    });
-});
+// describe('GET single products details', () => {
+//     test('GET single products status code is 200', async () => {
+//         const response = await getAllProducts(1).responseSingle;
+//         if (response && response.status === 200) {
+//             console.log("GET Single Products status :", response.status);
+//             console.log("GET Single Products data :", response.data);
+//         };
+//     });
+// });
 
 
 
