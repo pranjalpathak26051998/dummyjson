@@ -29,7 +29,7 @@ describe('GET all products details', () => {
     test('GET all products status code is 200', async () => {
         const response = await getAllProducts();
         if (response && response.status === 200) {
-            console.log("GET Products status :", response.status);
+            console.log("GET Products status code :", response.status);
             console.log("GET Products data :", response.data);
         };
     })
