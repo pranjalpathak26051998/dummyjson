@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "ls",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --config=jest.config.js",
     "test-login": "jest --config=jest.config.js"
   },
   "dependencies": {
